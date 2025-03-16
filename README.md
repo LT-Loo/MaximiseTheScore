@@ -1,5 +1,5 @@
 ## Introduction
-"Maximise The Score" is a strategic game between two players, Scott and Rusty, who take turns picking number balls from a table. The players aim to maximise their scores. Scott picks any ball while Rusty focuses on selecting balls with the highest sum of digits. The game alternates between rounds, with each player taking up k turns per round. Both players should play optimally to achieve the highest possible score.
+"Maximise The Score" is a strategic game between two players, Scott and Rusty, who take turns picking number balls from a table. The players aim to maximise their scores. Scott picks any ball while Rusty focuses on selecting balls with the highest sum of digits. The game alternates between rounds, with each player taking up *k* turns per round. Both players should play optimally to achieve the highest possible score.
 
 ## Key Features
 ### Heap As Priority Queue
@@ -16,13 +16,13 @@ The priority queue concept is used to arrange the balls according to their prior
 
 ### Input Format
 The `InputLeScore.txt` file contains the test cases of the game. The format is shown as below:
-> First line = The number of test cases
+> First line = The number of test cases<br>
 > Starting from the second line, every three lines present the details of one test case, where:
 > - First line contains two integers, representing the number of balls present and the maximum number of turns allowed.
 > - Second line shows the score written on each ball.
 > - Third line shows the result of coin toss, determining the player that starts the game. In this prohect, "HEADS" indicates Scott starts the game while "TAILS" indicates Rusty starts the game.
-<br>
-Example
+
+Example:
 ```
 2 // Number of test cases
 3 2 // First testcase, 3 balls on the table and 2 turns max per player
