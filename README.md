@@ -15,8 +15,8 @@ The priority queue concept is used to arrange the balls according to their prior
 2. Execute the output file with `[Output Filename] InputLeScore.txt`.
 
 ### Input Format
-The `InputLeScore.txt` file contains the test cases of the game. The format is shown as below:
-> First line = The number of test cases<br>
+The `InputLeScore.txt` file contains the testcases of the game. The format is shown as below:
+> First line = The number of testcases<br>
 > Starting from the second line, every three lines present the details of one test case, where:
 > - First line contains two integers, representing the number of balls present and the maximum number of turns allowed.
 > - Second line shows the score written on each ball.
@@ -28,7 +28,7 @@ Example:
 3 2 // First testcase, 3 balls on the table and 2 turns max per player
 1000 99 98 // Scores on each ball
 TAILS // Rusty starts the game
-2 1 // Second test case
+2 1 // Second testcase
 5 6
 HEADS
 ```
